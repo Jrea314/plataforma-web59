@@ -4,12 +4,13 @@
 
 .container {
     display: grid;
-    /*grid-template-columns: repeat(4, 1fr);*/
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 
 .item {
-    border: 1px solid blue;
+    background-color: lightseagreen;
+    padding: 10px;
+    border: 1px solid black;
 }
