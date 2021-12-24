@@ -16,17 +16,53 @@
 
 .header {
     grid-area: header;
-    background:aquamarine;
+    background:rgb(38, 157, 226);
+    display: grid;
+    place-items: center;
+
 }
 
 .left {
     grid-area: left;
+    border: 3px solid rgb(38, 157, 226);
+}
+
+.g1, .g2, .g3 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 25px;
 }
 
 .content {
-    grid-area: content;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    border: 3px solid rgb(38, 157, 226);
+}
+
+h1{ 
+    font-size: 100px;
+    color: rgb(38, 157, 226);
+}
+.icon-arrow-left{
+    display: none;
+}
+
+.icon-arrow-right{
+    display: block;
+}
+.foto{
+    width: 400px;
+    height: 300px;
+    border: 5px solid rgb(38, 157, 226);
+    border-radius: 25px;
+}
+
+img {
+    margin: 25px;
 }
 
 .footer {
     grid-area: footer;
+    background:rgb(38, 157, 226);
 }
