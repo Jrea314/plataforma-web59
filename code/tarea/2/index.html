@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
+<body>
+    <section class="container">
+        <div class="item header centro">
+            <h1>Plataformas Web</h1>
+            <h2>Formulario</h2>
+            <h3>Taller 1</h3>
+        </div>
+        <div class="item content">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <form>
+                    <ul class="formulario">
+                        <li class="formulario-fila">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" value="" />        
+                        </li>
+                        <li class="formulario-fila">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" value="" />                                
+                        </li>
+                        <li class="formulario-fila">
+                            <label >Pais:</label> 
+                            <select name="select">
+                            <option value="1">Ecuador</option>
+                            <option value="2" >EEUU</option>
+                            <option value="2">Colombia</option>
+                            </select>                               
+                        </li>
+                        <li class="formulario-fila">
+                            <label >Ciudad:</label> 
+                            <select name="select">
+                            <option value="1">Guayaquil</option>
+                            <option value="2" >Canada</option>
+                            <option value="2">Bogota</option>
+                            </select>                 
+                        </li>
+                        <li class="formulario-fila">
+                            <label >Fecha Nac:</label> 
+                            <input type="date" value="" min="1990-01-01" max="2002-12-31">               
+                        </li>
+                        <li class="formulario-fila">
+                            <label >Biografia:</label> 
+                            <textarea name="" id="" cols="30" rows="5"></textarea>            
+                        </li>
+                        <li class="formulario-fila">
+                            <button>Guardar</button>
+                            <button>Cancelar</button>             
+                        </li>
+                    </ul>
+                </form>
+            </fieldset>
+        </div>
+        <div class="item footer centro">
+            Josue Rea Yungan. &copy; 2021.
+        </div>
+    </section>
+</body>
+</html>
